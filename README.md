@@ -9,7 +9,7 @@ React makes it painless to create interactive UIs. Design simple views for each 
 
 ## Implementation
 
-Was create using create-react-app. File structure was modified to mirror the assignment.
+Was created using create-react-app. File structure was modified to mirror the assignment.
 
 The following NPM packages were used:
 
