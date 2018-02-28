@@ -6,7 +6,7 @@ class Header extends Component {
     return (
       <div className="Header text-center">
         <Navbar color="primary" dark>
-          <NavbarBrand href="/">TodoMVC</NavbarBrand>
+          <NavbarBrand href="/">Todo MVC</NavbarBrand>
         </Navbar>
       </div>
     );

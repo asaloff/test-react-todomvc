@@ -4,13 +4,11 @@ import { InputGroup, InputGroupAddon, Button, Input } from 'reactstrap';
 
 class SearchBar extends Component {
   render() {
-    const { createTodo } = this.props;
-
     return (
       <div className="SearchBar container">
         <div className="row justify-content-center">
           <div className="col-lg-5">
-            <form onSubmit={createTodo}>
+            <form onSubmit={this.props.createTodo}>
               <InputGroup>
                 <Input placeholder="New Item" name="new" autoFocus/>
                 <InputGroupAddon addonType="append">
