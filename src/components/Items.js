@@ -5,13 +5,13 @@ import ItemContainer from '../containers/ItemContainer';
 
 class Items extends Component {
   render() {
-    const { items } = this.props;
+    const { items, unfinished } = this.props;
 
     return (
       <div className="Items container">
         <h5 className="text-center">
-          {items.length} {items.length === 1 ? 'item' : 'items'} left
-          {!items.length && ' - You are up to date!'}
+          {unfinished.length} {unfinished.length === 1 ? 'item' : 'items'} left
+          {!unfinished.length && ' - You are up to date!'}
         </h5>
 
         <div className="row justify-content-center">
@@ -29,7 +29,8 @@ class Items extends Component {
 }
 
 Items.propTypes = {
-  items: PropTypes.array.isRequired
+  items: PropTypes.array.isRequired,
+  unfinished: PropTypes.array.isRequired
 };
 
 export default Items;
