@@ -1,0 +1,16 @@
+.navbar {
+  display: inline-block;
+  width: 100%;
+}
+
+.SearchBar, .Items {
+  margin-top: 20px;
+}
+
+.item-buttons .btn {
+  padding: 0 4px;
+  margin-right: 5px;
+  max-height: 24px
+}
+
+
