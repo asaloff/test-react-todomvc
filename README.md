@@ -24,4 +24,4 @@ Since there is no backend, data is not persisted when the page reloads.
 
 ## Credit
 
-Created by [Aaron Saloff](aaronsaloff@gmail.com)
+Created by [Aaron Saloff](https://aaronsaloff.com)
